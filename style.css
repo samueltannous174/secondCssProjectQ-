@@ -1,0 +1,127 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+.HeaderContainer{
+  display: flex;
+  background: #084257;
+  justify-content: space-around;
+  width: 100%;
+  min-width: 260px;
+}
+.headerContainerPart1{
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 60%;
+}
+.headerContainerPart2{
+  display: flex;
+  background: #084257;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 40%;
+}
+.smallButton{
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  border: none;
+  min-width: 25px;
+  margin-left: 5px;
+}
+.midWidthButton{
+  height: 20px;
+  width: 80px;
+}
+.largeButton{
+  height: 25px;
+  width: 50%;
+  border-radius: 40px;
+  border: none;
+}
+
+.container{
+  width: 100%;
+  min-height: 100%;
+  background: #392946;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: 50px auto;
+  margin-left: 20%;
+  gap: 16px;
+  background: #392946;
+  padding-bottom: 10px;
+  min-width: 260px;
+}
+
+.titleAndButtonContainer{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  grid-column: 1/4;
+}
+
+.titleFlex{
+  display: flex;
+  background: #085057;
+  width: 20%;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  min-width: 100px;
+}
+.title{
+  color: rgba(217, 188, 248, 0.7);
+}
+.buttonGridContainer{
+  width: 10%;
+  margin-right: 16%;
+}
+.buttonGrid{
+  background: #085057 ;
+  color: rgba(217, 188, 248, 0.7);
+  border: none;
+  padding: 4px;
+  width: 100%;
+  height: 35px;
+  border-radius: 20px;
+  font-size: 1.5vh;
+  min-width: 50px;
+}
+.leftComponentOne{
+  display: flex;
+  flex-direction: column;
+  grid-column: 1/3;
+  background: #d8cee1;
+  color: rgba(70, 108, 2, 0.7);
+  width: 70%;
+  border-radius: 10px;
+  min-width: 260px;
+}
+.leftComponentImg{
+  border-radius: 50%;
+  height: 7vh;
+  width: 7vh;
+  border: none;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+.leftComponentOnePar{
+  font-size: 2vh ;
+  margin-left: 4%;
+  font-weight: bold;
+}
+
+
+
